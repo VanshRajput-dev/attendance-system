@@ -14,7 +14,6 @@ const Login = () => {
     <div className="login-container">
       <div className="login-box">
         <h2>Welcome Leader</h2>
-        <p>Please enter your details</p>
 
         <form onSubmit={handleSubmit}>
           <label>Email address</label>

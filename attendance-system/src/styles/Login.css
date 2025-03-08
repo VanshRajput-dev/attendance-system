@@ -1,27 +1,82 @@
-.login-container {
+/* Center the container */
+body {
+    background-color: #0D1B2A; /* Dark Navy */
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #E0E1DD; /* Light Gray */
+    margin: 0;
   }
   
+  /* Center everything inside the login box */
+  .login-container {
+    background: #1B263B; /* Deep Blue */
+    padding: 2.5rem; /* Increased padding */
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    text-align:  left;
+    width: 370px; /* Slightly wider */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Add spacing between elements */
+  }
+  
+  /* Headings and text */
+  h1 {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin-top: 0;
+    font-size: 0.9rem;
+    color: #A8B2C8;
+  }
+  
+  /* Input fields */
   input {
-    margin: 10px;
-    padding: 10px;
-    width: 250px;
+    width: 92%;
+    padding: 10px; /* More padding for better usability */
+    margin-bottom: 14px; /* Better spacing */
+    border: 1px solid #415A77;
+    border-radius: 8px;
+    background: #E0E1DD;
+    color: #1B263B;
+    font-size: 1rem;
   }
   
-  button {
-    padding: 10px 20px;
-    background-color: blue;
+  /* Reduce button size and add spacing */
+  .sign-in-btn {
+    width: 85%; /* Balanced width */
+    padding: 12px; /* More padding */
+    background-color: #415A77; /* Slate Blue */
     color: white;
     border: none;
+    border-radius: 8px;
+    font-size: 0.9rem; /* Slightly smaller text */
     cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 5px; /* More space from inputs */
   }
   
-  button:hover {
-    background-color: darkblue;
+  .sign-in-btn:hover {
+    background-color: #778DA9; /* Muted Blue */
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 0.9rem;
+    text-align: left;
+    width: 100%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    .login-container {
+      width: 90%;
+      padding: 2rem;
+    }
   }
   
