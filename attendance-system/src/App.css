@@ -1,0 +1,23 @@
+/* styles/App.css */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background-color: #f4f4f4; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+/* Add a simple animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.app-container {
+  animation: fadeIn 0.5s ease-in-out;
+}
