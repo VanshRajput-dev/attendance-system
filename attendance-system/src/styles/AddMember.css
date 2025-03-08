@@ -1,0 +1,88 @@
+/* Center the entire container */
+.add-member-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D1B2A;
+  }
+  
+  /* Make the form box wider and centered */
+  .add-member-box {
+    background-color: #E0E1DD;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 500px; /* Increased width */
+    text-align: center;
+  }
+  
+  /* Title */
+  .add-member-title {
+    color: #1B263B;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Form styling */
+  .add-member-form input,
+  .add-member-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Make the button smaller */
+  .add-member-btn {
+    width: 70%; /* Reduced button width */
+    padding: 8px;
+    background-color: #415A77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .add-member-btn:hover {
+    background-color: #778DA9;
+  }
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 2px solid #415A77; /* Same border as input fields */
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #E0E1DD; /* Same background as inputs */
+    color: #1B263B; /* Same text color as inputs */
+    cursor: pointer;
+    appearance: none; /* Removes default browser styles */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  /* Ensure the dropdown arrow aligns well */
+  .input-field {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23415A77'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+  }
+  
+  /* Hover and Focus Effects */
+  .input-field:hover {
+    border-color: #778DA9;
+  }
+  
+  .input-field:focus {
+    border-color: #778DA9;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(119, 141, 169, 0.5);
+  }
+  

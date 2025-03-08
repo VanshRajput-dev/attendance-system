@@ -12,7 +12,7 @@ const HomePage = () => {
         <button onClick={() => navigate("/MarkAttendance")}>
           Mark Attendance
         </button>
-        <button>Add Member</button>
+        <button onClick={() => navigate("/AddMember")}>Add Member</button>
       </div>
     </div>
   );

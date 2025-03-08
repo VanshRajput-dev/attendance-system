@@ -33,8 +33,9 @@ const MarkAttendance = () => {
         <select className="dropdown" value={selectedDomain} onChange={handleDomainChange}>
           <option value="">Select Domain</option>
           <option value="Web Development">Web Development</option>
-          <option value="Data Science">Data Science</option>
-          <option value="Cyber Security">Cyber Security</option>
+          <option value="Corporate">Corporate</option>
+          <option value="R&D">R&D</option>
+          <option value="Creatives"> Creatives</option>
         </select>
 
         {/* Member List */}
